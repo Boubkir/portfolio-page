@@ -16,12 +16,12 @@
 
 
 
-    <form action="">
-      <input required type="text" placeholder="Your name" id="">
-      <input required type="text" placeholder="Your email" id="">
-      <textarea required name="" placeholder="Your message" id="" cols="30" rows="10"></textarea>
+    <form (submit)="sendMail()" ngNativeValidate #myForm>
+      <input required type="text" name="name" placeholder="Your name" #nameField>
+      <input required type="email" name="mail" placeholder="Your email" #emailField>
+      <textarea required name="message" placeholder="Your message" #messageField cols="30" rows="10"></textarea>
       <div class="center">
-        <button>Send message :)</button>
+        <button #sendButton>Send message :)</button>
       </div>
     </form>
   </div>

@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
@@ -12,6 +11,7 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { IAmSectionComponent } from './i-am-section/i-am-section.component';
 import { PictureTextDivComponent } from './picture-text-div/picture-text-div.component';
 import { TetxPictureDivComponent } from './tetx-picture-div/tetx-picture-div.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -24,13 +24,15 @@ import { TetxPictureDivComponent } from './tetx-picture-div/tetx-picture-div.com
     ContactSectionComponent,
     IAmSectionComponent,
     PictureTextDivComponent,
-    TetxPictureDivComponent
+    TetxPictureDivComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    ReactiveFormsModule,
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

@@ -7,4 +7,5 @@ import { Component, Input } from '@angular/core';
 })
 export class PictureTextDivComponent {
   @Input() content:any;
+  @Input() img:any;
 }

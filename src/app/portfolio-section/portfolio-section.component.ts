@@ -14,6 +14,7 @@ export class PortfolioSectionComponent {
         'kldemwökjneqdföjkhqbnwföjqnwäekndmäwqKnmfäljqnwdkl-qemndäkqmnwä-d',
       'live-test-link': '',
       'github-link': '',
+      img: 'el-pollo-loco.png',
     },
     {
       'project-name': 'El Pollo Loco',
@@ -21,6 +22,7 @@ export class PortfolioSectionComponent {
       description: 'fmnfröjhnwäojewnfq3kö',
       'live-test-link': 'mfnv jdkönfhäroequhnfä',
       'github-link': 'nrf -jklenöhäfoihq3',
+      img: 'el-pollo-loco.png',
     },
   ];
 }
