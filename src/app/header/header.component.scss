@@ -1,0 +1,32 @@
+.menue{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+  height: 110px;
+    position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100px;
+  background-color: #141D2f;
+  z-index: 1000;
+
+  img{
+    width: 150px;
+    height: 35px;
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    margin-left: 30px;
+    cursor: pointer;
+
+    &:hover{
+      color: #00bee8;
+      border-bottom: solid 3px #4B47FF;
+    }
+  }
+}

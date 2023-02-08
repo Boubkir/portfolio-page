@@ -1,0 +1,85 @@
+.contact-icon-div {
+  display: flex;
+  align-items: center;
+
+  img {
+    margin-right: 40px;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+}
+
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-me-text {
+  z-index: 100;
+  color: white;
+  width: 471px;
+
+  h2 {
+    font-size: 90px;
+    font-weight: 700;
+    margin-left: 100px;
+    margin-bottom: 35px;
+    margin-top: 143px;
+    width: 471px;
+  }
+}
+
+.about-me-text-div {
+  width: 471px;
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+
+  img {
+    margin: 0 36px;
+    padding-top: 6px;
+  }
+}
+
+.about-me-picture {
+  display: flex;
+  align-items: center;
+}
+
+.display-flex {
+  display: flex;
+}
+
+.portrait {
+  width: 453px;
+  height: 453px;
+  border-radius: 100%;
+  border: solid 4px #00bee8;
+}
+
+.bulb {
+  height: 50px;
+  width: auto;
+}
+
+.puzzle {
+  width: 50px;
+  height: 50px;
+}
+
+.profile-blur {
+  position: relative;
+}
+
+.pblur {
+  position: absolute;
+  top: -430px;
+  right: 0;
+  height: 608px;
+}

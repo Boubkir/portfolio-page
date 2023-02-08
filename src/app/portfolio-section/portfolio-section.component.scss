@@ -1,0 +1,42 @@
+.portfolio-div {
+  position: relative;
+}
+
+.title-div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 175.29px;
+  text-align: center;
+
+  h2 {
+    margin: 0 42px 0 36px;
+    font-weight: 700;
+    font-size: 90px;
+    color: white;
+  }
+}
+
+span {
+  color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  margin-top: 35px;
+  margin-bottom: 197px;
+}
+
+.p-blur-1 {
+  position: absolute;
+  top: 900px;
+  left: -100px;
+  z-index: -1;
+  height: 750px;
+}
+.p-blur-2 {
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  bottom: -270px;
+  height: 950px;
+}

@@ -1,0 +1,71 @@
+.my-sklills {
+  margin-left: 100px;
+  margin-top: 289px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.my-skills-icons {
+  display: flex;
+  flex-wrap: wrap;
+  width: 53%;
+  gap: 100px;
+  align-items: right;
+  max-width: 721px;
+  position: relative;
+}
+
+.my-skills-text {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  max-width: 571px;
+
+  span {
+    font-size: 16px;
+    text-align: right;
+  }
+
+  h2 {
+    font-size: 90px;
+    font-weight: 700;
+    align-items: flex-end;
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
+}
+
+.get-in-touch-button {
+  display: flex;
+  justify-content: center;
+  button {
+    background: #00bee8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 200px;
+    height: 58px;
+    color: white;
+    border: none;
+    font-size: 23px;
+    margin-top: 44px;
+  }
+}
+
+.display-flex {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  justify-content: flex-end;
+
+  img {
+    right: -100px;
+  }
+}
+
+.skill-blur {
+  position: absolute;
+  z-index: -1;
+  top: 148px;
+  left: -100px;
+}

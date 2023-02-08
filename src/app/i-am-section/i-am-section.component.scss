@@ -1,0 +1,87 @@
+.i-am-section {
+  height: calc(100vh - 110px);
+  background-color: linear-gradient(
+    165.69deg,
+    #1a2743 37.75%,
+    #27334b 43.25%,
+    #141d2f 70.18%
+  );
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  z-index: -1;
+  position: relative;
+}
+
+.hero-div {
+  position: relative;
+}
+
+.hero-blur {
+  position: absolute;
+  z-index: -1;
+  top: 44px;
+  left: -123px;
+  height: 671px;
+  width: 690px;
+}
+
+.hero-picture {
+    position: absolute;
+    height: 691px;
+    width: auto;
+}
+
+.introduce {
+  display: flex;
+  width: fit-content;
+  align-items: center;
+  position: absolute;
+  right: 100px;
+}
+
+.rotate-180 {
+  transform: rotate(-90deg);
+  font-size: 64px;
+  white-space: nowrap;
+  margin-top: 55px;
+}
+
+.display-column {
+  display: flex;
+  flex-direction: column;
+  margin-top: 157px;
+}
+
+.name {
+  font-size: 90px;
+}
+
+.job {
+  color: #4b47ff;
+  font-size: 58px;
+}
+
+.lets-talk-button {
+  display: flex;
+  justify-content: center;
+  button {
+    background: #00bee8;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    width: 165px;
+    height: 58px;
+    color: white;
+    border: none;
+    font-size: 23px;
+    margin-top: 44px;
+  }
+}
+
+.background-shape {
+  position: absolute;
+  bottom: -563px;
+  left: 0;
+  right: 0;
+  width: 100vw;
+}

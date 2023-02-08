@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+body{
+  margin: 0;
+  background-color: #141D2F;
+  backdrop-filter: blur(32.5px);
+}
+
+*{
+    font-family: 'poppins',Arial, Helvetica, sans-serif;
+}
