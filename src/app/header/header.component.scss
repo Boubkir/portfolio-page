@@ -30,3 +30,13 @@
     }
   }
 }
+
+@media (max-width: 720px) {
+  nav{
+    display: none;
+  }
+
+  .menue{
+    padding: 0 25px;
+  }
+}

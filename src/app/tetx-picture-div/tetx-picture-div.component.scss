@@ -65,3 +65,23 @@
   font-size: 23px;
   color: #00bee8;
 }
+
+
+
+@media (max-width:720px) {
+
+  .picture-text-div {
+  display: flex;
+  align-items: center;
+  flex-direction: column-reverse;
+  justify-content: unset;
+  margin: unset;
+  margin-bottom:87px;
+  }
+
+  .picture,.text-div{
+    width: 90%;
+    align-items: center;
+  }
+  
+}

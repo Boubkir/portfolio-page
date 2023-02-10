@@ -7,5 +7,6 @@ import { Component, Input } from '@angular/core';
 })
 export class TetxPictureDivComponent {
   @Input() content:any;
+  @Input() img:any;
 
 }

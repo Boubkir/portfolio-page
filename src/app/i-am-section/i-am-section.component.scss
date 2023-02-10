@@ -1,65 +1,73 @@
 .i-am-section {
-  height: calc(100vh - 110px);
-  background-color: linear-gradient(
-    165.69deg,
-    #1a2743 37.75%,
-    #27334b 43.25%,
-    #141d2f 70.18%
-  );
-  color: white;
   display: flex;
-  justify-content: space-between;
-  z-index: -1;
+  height: 100vh;
+  align-items: center;
+  justify-content: flex-end;
   position: relative;
+
+  img {
+    height: 705px;
+  }
 }
 
-.hero-div {
-  position: relative;
-}
-
-.hero-blur {
+.picture-div {
   position: absolute;
-  z-index: -1;
-  top: 44px;
-  left: -123px;
-  height: 671px;
-  width: 690px;
+  left: 47px;
+  width: 100%;
 }
 
-.hero-picture {
-    position: absolute;
-    height: 691px;
-    width: auto;
+.blur-div {
+  position: relative;
+  width: 100%;
+  top: -88px;
+}
+
+.shape-line {
+  position: absolute;
+  width: 100%;
+  bottom: -419px;
+  left: -50px;
+}
+
+.blur {
+  position: absolute;
+  left: -25px;
+  z-index: -1;
 }
 
 .introduce {
   display: flex;
-  width: fit-content;
-  align-items: center;
-  position: absolute;
-  right: 100px;
+  color: white;
+  padding-bottom: 361px;
+  margin-right: 100px;
 }
 
-.rotate-180 {
+.rotate {
   transform: rotate(-90deg);
   font-size: 64px;
   white-space: nowrap;
-  margin-top: 55px;
+  display: flex;
+  align-items: flex-end;
+      padding-left: 110px;
 }
 
-.display-column {
+.me {
   display: flex;
   flex-direction: column;
-  margin-top: 157px;
+  white-space: nowrap;
+  padding-left: 35px;
 }
 
 .name {
   font-size: 90px;
+  font-weight: 700;
+  margin: -6px 0;
+  letter-spacing: -5px;
 }
 
 .job {
-  color: #4b47ff;
   font-size: 58px;
+  color: #4847ff;
 }
 
 .lets-talk-button {
@@ -76,12 +84,4 @@
     font-size: 23px;
     margin-top: 44px;
   }
-}
-
-.background-shape {
-  position: absolute;
-  bottom: -563px;
-  left: 0;
-  right: 0;
-  width: 100vw;
 }

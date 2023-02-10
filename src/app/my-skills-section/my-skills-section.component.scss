@@ -16,6 +16,25 @@
   position: relative;
 }
 
+.icon-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 700;
+
+  span{
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  img:hover{
+   position: relative;
+   bottom: 11px;
+   transition: all ease-in-out 225ms ;
+  }
+}
+
 .my-skills-text {
   width: 40%;
   display: flex;
@@ -67,5 +86,71 @@
   position: absolute;
   z-index: -1;
   top: 148px;
-  left: -100px;
+  left: -144px;
+}
+
+.d-none-desktop {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .my-sklills {
+    flex-direction: column-reverse;
+    justify-content: end;
+    align-items: flex-end;
+    margin-top: 154px;
+    margin-left: 0;
+  }
+
+  .my-skills-icons {
+    width: 100%;
+    justify-content: center;
+      gap: 97px;
+  }
+
+  .display-flex {
+    font-size: 45px;
+
+    img {
+      width: 20px;
+      height: auto;
+      margin-left: 6px;
+    }
+
+    h2 {
+      font-size: 45px;
+    }
+  }
+  .my-skills-text span:nth-child(2) {
+    width: 90%;
+    margin-bottom: 63px;
+  }
+
+  .my-skills-text {
+    width: 100%;
+  }
+
+  .d-none-mobile {
+    display: none;
+  }
+
+  .d-none-desktop {
+    display: flex;
+  }
+
+  .get-in-touch-button{
+        width: 100%;
+        margin-top: 67px;
+
+        button{
+          width: 158px;
+          padding: 15px 30px;
+          box-sizing: border-box;
+          white-space:nowrap;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 16px;
+        }
+  }
 }

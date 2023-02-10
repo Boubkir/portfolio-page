@@ -11,15 +11,15 @@ export class PortfolioSectionComponent {
       'project-name': 'Join',
       language: 'HTML | CSS | JavaScript',
       description:
-        'kldemwökjneqdföjkhqbnwföjqnwäekndmäwqKnmfäljqnwdkl-qemndäkqmnwä-d',
+        'Kanban Project Management Tool',
       'live-test-link': '',
       'github-link': '',
       img: 'el-pollo-loco.png',
     },
     {
       'project-name': 'El Pollo Loco',
-      language: 'sdn.kjnbchjbföjeln-lflkjbg-mhl-ezjtäir',
-      description: 'fmnfröjhnwäojewnfq3kö',
+      language: 'HTML | CSS | JavaScript',
+      description: 'Jump and run Game',
       'live-test-link': 'mfnv jdkönfhäroequhnfä',
       'github-link': 'nrf -jklenöhäfoihq3',
       img: 'el-pollo-loco.png',

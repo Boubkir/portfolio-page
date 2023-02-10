@@ -40,3 +40,35 @@ span {
   bottom: -270px;
   height: 950px;
 }
+
+@media(max-width:720px){
+.title-div {
+  margin-top: 124px;
+  text-align: center;
+
+  h2 {
+    font-size: 45px;
+    margin: 0 10px;
+  }
+
+  img:last-child{
+    width: 75px;
+    height: 4px;
+  }
+
+    img:first-child{
+    width: 20px;
+    height: 4px;
+  }
+}
+
+.portfolio-div{
+  width: 100%;
+  span{
+text-align: center;
+    margin-right: 0;
+    margin-bottom: 35px; 
+    margin-top: 25px;
+  }
+}
+}

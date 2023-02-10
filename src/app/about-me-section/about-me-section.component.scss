@@ -1,6 +1,9 @@
 .contact-icon-div {
   display: flex;
   align-items: center;
+  margin-top: 97px;
+  z-index: 2;
+  position: relative;
 
   img {
     margin-right: 40px;
@@ -50,6 +53,7 @@
 .about-me-picture {
   display: flex;
   align-items: center;
+  z-index: 2;
 }
 
 .display-flex {
@@ -82,4 +86,35 @@
   top: -430px;
   right: 0;
   height: 608px;
+}
+
+@media (max-width: 720px) {
+  .about-me-picture {
+    display: none;
+  }
+
+  .email {
+    display: none;
+  }
+  .about-me {
+    flex-direction: column;
+  }
+
+  .about-me-text {
+    z-index: 100;
+    color: white;
+    width: 85%;
+
+    h2 {
+      font-size: 45px;
+      margin: unset;
+      margin-top: 105px;
+      margin-bottom: 25px;
+    }
+
+    .about-me-text-div {
+      margin: unset;
+      width: unset;
+    }
+  }
 }
