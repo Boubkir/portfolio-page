@@ -40,6 +40,7 @@
   color: white;
   padding-bottom: 361px;
   margin-right: 100px;
+  z-index: 2;
 }
 
 .rotate {
@@ -48,7 +49,7 @@
   white-space: nowrap;
   display: flex;
   align-items: flex-end;
-      padding-left: 110px;
+  padding-left: 110px;
 }
 
 .me {
@@ -82,6 +83,70 @@
     color: white;
     border: none;
     font-size: 23px;
+    cursor: pointer;
     margin-top: 44px;
+
+    &:hover {
+      transform: scaleX(1.1) scaleY(1.1);
+      transition: all 225ms ease-in-out;
+      background-color: #4b47ff;
+    }
+  }
+}
+
+@media (max-width: 720px) {
+  .i-am-section {
+    flex-direction: column;
+    justify-content: unset;
+    align-items: center;
+
+    img {
+      height: 410px;
+    }
+  }
+
+  .picture-div {
+    position: relative;
+    left: unset;
+    width: 100%;
+  }
+
+  .blur-div {
+    position: unset;
+    display: flex;
+    justify-content: center;
+  }
+
+  .introduce {
+    padding-bottom: unset;
+  }
+
+  .name {
+    font-size: 45px;
+  }
+
+  .job {
+    font-size: 29px;
+  }
+
+  .rotate {
+    font-size: 32px;
+  }
+
+  .me {
+    padding-left: 10px;
+  }
+
+  .shape-line {
+    position: absolute;
+    width: 100%;
+    bottom: -248px;
+    left: 0px;
+    transform: rotateX(63deg);
+  }
+
+  .blur{
+        left: 29px;
+    top: 31px;
   }
 }

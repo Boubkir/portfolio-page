@@ -53,8 +53,14 @@ form {
     box-sizing: border-box;
     color: white;
 
-    &:hover{
-       border: 1px solid #00bee8;
+    &:hover {
+      border: 1px solid #00bee8;
+      outline: none;
+    }
+
+    &:focus:invalid {
+      border: 1px solid #e61c40;
+      outline: none;
     }
   }
 
@@ -68,8 +74,14 @@ form {
     color: white;
     resize: none;
 
-       &:hover{
-       border: 1px solid #00bee8;
+    &:hover {
+      border: 1px solid #00bee8;
+      outline: none;
+    }
+
+    &:focus:invalid {
+      border: 1px solid #e61c40;
+      outline: none;
     }
   }
 
@@ -89,12 +101,12 @@ form {
     color: white;
     font-size: 23px;
     margin-bottom: 234px;
+    outline: none;
 
     &:hover {
-      transform: scaleX(1.1) scaleY(1.1) ;
+      transform: scaleX(1.1) scaleY(1.1);
       transition: all 225ms ease-in-out;
       background-color: #4b47ff;
-
     }
   }
 }

@@ -14,24 +14,36 @@
   align-items: right;
   max-width: 721px;
   position: relative;
+
+  div{
+    width: 82px;
+  }
 }
 
-.icon-flex{
+.icon-flex {
   display: flex;
   flex-direction: column;
   align-items: center;
   font-size: 16px;
   font-weight: 700;
 
-  span{
+  span {
     margin-top: 10px;
     text-align: center;
   }
 
-  img:hover{
-   position: relative;
-   bottom: 11px;
-   transition: all ease-in-out 225ms ;
+  img:hover {
+    position: relative;
+    animation: jump 225ms ease-in-out;
+  }
+}
+
+@keyframes jump {
+  from {
+    bottom: 11px;
+  }
+  to {
+    bottom: 11px;
   }
 }
 
@@ -68,6 +80,12 @@
     border: none;
     font-size: 23px;
     margin-top: 44px;
+
+    &:hover {
+      transform: scaleX(1.1) scaleY(1.1);
+      transition: all 225ms ease-in-out;
+      background-color: #4b47ff;
+    }
   }
 }
 
@@ -105,7 +123,7 @@
   .my-skills-icons {
     width: 100%;
     justify-content: center;
-      gap: 97px;
+    gap: 97px;
   }
 
   .display-flex {
@@ -138,19 +156,19 @@
     display: flex;
   }
 
-  .get-in-touch-button{
-        width: 100%;
-        margin-top: 67px;
+  .get-in-touch-button {
+    width: 100%;
+    margin-top: 67px;
 
-        button{
-          width: 158px;
-          padding: 15px 30px;
-          box-sizing: border-box;
-          white-space:nowrap;
-          display: flex;
-          justify-content: center;
-          align-items: center;
-          font-size: 16px;
-        }
+    button {
+      width: 158px;
+      padding: 15px 30px;
+      box-sizing: border-box;
+      white-space: nowrap;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 16px;
+    }
   }
 }

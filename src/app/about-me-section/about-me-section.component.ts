@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AboutMeSectionComponent {
 
+  test(a:any,b:any){
+    console.log(a,b)
+  }
+
 }
+

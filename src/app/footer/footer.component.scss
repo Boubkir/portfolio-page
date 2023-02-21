@@ -4,13 +4,12 @@
   justify-content: space-between;
   color: white;
   height: 291px;
-  border-top: 4px solid #00BEE8;
+  border-top: 4px solid #00bee8;
   background-color: #141d2f;
 
   span {
     font-size: 23px;
   }
-
 
   a {
     text-decoration: none;
@@ -35,13 +34,19 @@
   display: flex;
   gap: 42px;
   margin-right: 100px;
+
+  img {
+    &:hover {
+      transform: scale(1.4);
+    }
+  }
 }
 
-.d-done-desktop{
+.d-done-desktop {
   display: none;
 }
 
-@media (max-width:720px) {
+@media (max-width: 720px) {
   .footer {
     display: flex;
     flex-direction: column;
@@ -50,19 +55,19 @@
     height: 380px;
   }
 
-  .flex-column{
+  .flex-column {
     margin-left: 0;
   }
 
-  .social-icons{
+  .social-icons {
     margin-right: 0;
   }
 
-  .d-done-mobile{
-    display:none;
+  .d-done-mobile {
+    display: none;
   }
 
-  .d-done-desktop{
+  .d-done-desktop {
     display: flex;
   }
 }

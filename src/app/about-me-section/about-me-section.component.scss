@@ -7,6 +7,9 @@
 
   img {
     margin-right: 40px;
+    &:hover {
+      transform: scale(1.4);
+    }
   }
 
   a {

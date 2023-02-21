@@ -12,6 +12,7 @@ import { IAmSectionComponent } from './i-am-section/i-am-section.component';
 import { PictureTextDivComponent } from './picture-text-div/picture-text-div.component';
 import { TetxPictureDivComponent } from './tetx-picture-div/tetx-picture-div.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { ImprintComponent } from './imprint/imprint.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     IAmSectionComponent,
     PictureTextDivComponent,
     TetxPictureDivComponent,
+    ImprintComponent,
   ],
   imports: [
     BrowserModule,

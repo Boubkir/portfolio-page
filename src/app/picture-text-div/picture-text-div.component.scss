@@ -31,7 +31,12 @@
   gap: 86px;
 }
 
-.live-test-button {
+.live-test-button,
+.github-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   width: 152px;
   height: 58px;
   background: #4b47ff;
@@ -39,16 +44,16 @@
   border: none;
   color: white;
   cursor: pointer;
+
+  &:hover {
+    background-color: #00bee8;
+  }
 }
 
 .github-button {
   width: 137px;
-  height: 58px;
   background-color: transparent;
   border: 1px solid #00bee8;
-  border-radius: 10px;
-  color: white;
-  cursor: pointer;
 }
 
 .picture {
@@ -64,22 +69,19 @@
   color: #00bee8;
 }
 
-
-@media (max-width:720px) {
-
+@media (max-width: 720px) {
   .picture-text-div {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  justify-content: unset;
-  margin: unset;
-  margin-bottom: 87px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: unset;
+    margin: unset;
+    margin-bottom: 87px;
   }
 
-
-  .picture,.text-div{
+  .picture,
+  .text-div {
     width: 90%;
     align-items: center;
   }
-  
 }
