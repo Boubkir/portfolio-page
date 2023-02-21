@@ -16,12 +16,6 @@
   width: 100%;
 }
 
-.blur-div {
-  position: relative;
-  width: 100%;
-  top: -88px;
-}
-
 .shape-line {
   position: absolute;
   width: 100%;
@@ -38,25 +32,27 @@
 .introduce {
   display: flex;
   color: white;
+  flex-direction: column;
   padding-bottom: 361px;
   margin-right: 100px;
   z-index: 2;
 }
 
+.display-flex{
+  display: flex;
+}
+
 .rotate {
   transform: rotate(-90deg);
   font-size: 64px;
-  white-space: nowrap;
   display: flex;
-  align-items: flex-end;
-  padding-left: 110px;
+  white-space: nowrap;
 }
 
 .me {
   display: flex;
   flex-direction: column;
   white-space: nowrap;
-  padding-left: 35px;
 }
 
 .name {
@@ -107,18 +103,18 @@
 
   .picture-div {
     position: relative;
-    left: unset;
-    width: 100%;
-  }
-
-  .blur-div {
-    position: unset;
     display: flex;
     justify-content: center;
+    align-items: center;
+    left: unset;
+    width: unset;
   }
 
   .introduce {
-    padding-bottom: unset;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
   }
 
   .name {
@@ -133,20 +129,17 @@
     font-size: 32px;
   }
 
-  .me {
-    padding-left: 10px;
-  }
 
   .shape-line {
     position: absolute;
-    width: 100%;
-    bottom: -248px;
+    width: 100vw;
+    bottom: -218px;
     left: 0px;
     transform: rotateX(63deg);
   }
 
-  .blur{
-        left: 29px;
-    top: 31px;
+  .blur {
+    position: absolute;
+    left: -47px;
   }
 }
