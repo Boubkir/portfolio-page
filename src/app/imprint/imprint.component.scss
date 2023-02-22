@@ -1,8 +1,30 @@
-.container{
+.container {
   color: white;
   margin: 120px;
+  height: calc(100vh - 391px);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
 }
 
-a{
+img {
+  position: absolute;
+  z-index: -1;
+}
+
+.blur-right {
+  right: 120px;
+  bottom: -142px;
+}
+
+.blur-left {
+    top: 0;
+    left: -120px;
+}
+
+a {
   color: white;
 }
