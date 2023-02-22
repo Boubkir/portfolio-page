@@ -70,7 +70,7 @@
 .lets-talk-button {
   display: flex;
   justify-content: center;
-  button {
+  a {
     background: #00bee8;
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
@@ -81,6 +81,10 @@
     font-size: 23px;
     cursor: pointer;
     margin-top: 44px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
     &:hover {
       transform: scaleX(1.1) scaleY(1.1);

@@ -13,6 +13,7 @@ import { PictureTextDivComponent } from './picture-text-div/picture-text-div.com
 import { TetxPictureDivComponent } from './tetx-picture-div/tetx-picture-div.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { ImprintComponent } from './imprint/imprint.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +28,7 @@ import { ImprintComponent } from './imprint/imprint.component';
     PictureTextDivComponent,
     TetxPictureDivComponent,
     ImprintComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
