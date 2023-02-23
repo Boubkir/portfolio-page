@@ -39,7 +39,7 @@
   z-index: 2;
 }
 
-.display-flex{
+.display-flex {
   display: flex;
 }
 
@@ -95,9 +95,10 @@
   }
 }
 
+
+
 @media (max-width: 1200px) {
-    
- .i-am-section {
+  .i-am-section {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
@@ -126,7 +127,7 @@
 
   .name {
     font-size: 45px;
-     letter-spacing: -2px;
+    letter-spacing: -2px;
   }
 
   .job {
@@ -136,7 +137,6 @@
   .rotate {
     font-size: 32px;
   }
-
 
   .shape-line {
     position: absolute;
@@ -150,7 +150,6 @@
     position: absolute;
     left: -47px;
   }
-
 }
 
 @media (max-width: 720px) {
@@ -193,7 +192,6 @@
     font-size: 32px;
   }
 
-
   .shape-line {
     position: absolute;
     width: 100vw;
@@ -206,4 +204,31 @@
     position: absolute;
     left: -47px;
   }
+}
+
+
+@media (max-width: 450px) {
+  img {
+    height: 383px;
+  }
+
+  .rotate{
+    font-size: 22px;
+  }
+
+  .name {
+    font-size: 33px;
+  }
+
+  .job{
+    font-size: 20px;
+  }
+
+  .lets-talk-button{
+    a{
+    width: 149px;
+    height: 46px;
+    font-size: 21px;
+  }
+}
 }

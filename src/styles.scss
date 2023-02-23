@@ -4,6 +4,10 @@ body {
   backdrop-filter: blur(32.5px);
 }
 
+body, html {
+overflow-x: hidden;
+}
+
 * {
   font-family: "poppins", Arial, Helvetica, sans-serif;
 
@@ -27,6 +31,4 @@ body {
   }
 }
 
-html {
-  overflow-x: hidden;
-}
+

@@ -44,7 +44,7 @@
   border: none;
   color: white;
   cursor: pointer;
-  font-family: 'poppins' Arial, Helvetica, sans-serif;
+  font-family: "poppins" Arial, Helvetica, sans-serif;
   font-size: 16px;
 
   &:hover {
@@ -85,5 +85,18 @@
   .text-div {
     width: 90%;
     align-items: center;
+  }
+}
+
+@media (max-width: 450px) {
+  .button-div {
+    gap: unset;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .live-test-button,
+  .github-button {
+    width: 125px;
   }
 }
