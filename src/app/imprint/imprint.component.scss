@@ -1,7 +1,6 @@
 .container {
   color: white;
-  margin: 120px;
-  height: calc(100vh - 391px);
+  height: calc(100vh - 295px) ;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -16,7 +15,7 @@ img {
 }
 
 .blur-right {
-  right: 120px;
+  right: 0px;
   bottom: -142px;
 }
 

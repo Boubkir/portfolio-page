@@ -4,7 +4,7 @@
   justify-content: space-between;
   margin: 115px 100px;
 
-  h3{
+  h3 {
     margin: 0;
     color: #4b47ff;
     font-size: 32px;
@@ -41,8 +41,10 @@
   border: none;
   color: white;
   cursor: pointer;
+  font-family: "poppins" Arial, Helvetica, sans-serif;
+  font-size: 16px;
 
-    &:hover{
+  &:hover {
     background-color: #00bee8;
   }
 }
@@ -55,8 +57,10 @@
   border-radius: 10px;
   color: white;
   cursor: pointer;
+  font-family: "poppins" Arial, Helvetica, sans-serif;
+  font-size: 16px;
 
-    &:hover{
+  &:hover {
     background-color: #00bee8;
   }
 }
@@ -69,27 +73,24 @@
   justify-content: center;
 }
 
-.languages{
+.languages {
   font-size: 23px;
   color: #00bee8;
 }
 
-
-
-@media (max-width:720px) {
-
+@media (max-width: 720px) {
   .picture-text-div {
-  display: flex;
-  align-items: center;
-  flex-direction: column-reverse;
-  justify-content: unset;
-  margin: unset;
-  margin-bottom:87px;
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: unset;
+    margin: unset;
+    margin-bottom: 87px;
   }
 
-  .picture,.text-div{
+  .picture,
+  .text-div {
     width: 90%;
     align-items: center;
   }
-  
 }

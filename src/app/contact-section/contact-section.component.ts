@@ -22,6 +22,12 @@ export class ContactSectionComponent {
     emailField.disabled = true;
     messageField.disabled = true;
     sendButton.disabled = true;
+    nameField.style.pointerEvents = 'none';
+    emailField.style.pointerEvents = 'none';
+    messageField.style.pointerEvents = 'none';
+    sendButton.style.pointerEvents = 'none';
+    sendButton.style.background = '#4b47ff';
+    sendButton.innerHTML = 'Has been sent :)';
 
     let formData = new FormData();
     formData.append('name', nameField.value);
