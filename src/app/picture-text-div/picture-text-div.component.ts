@@ -6,6 +6,10 @@ import { Component, Input } from '@angular/core';
   styleUrls: ['./picture-text-div.component.scss'],
 })
 export class PictureTextDivComponent {
-  @Input() content:any;
-  @Input() img:any;
+  @Input() title: any;
+  @Input() img: any;
+  @Input() technology: any;
+  @Input() description: any;
+  @Input() liveLink: any;
+  @Input() gitLink: any;
 }

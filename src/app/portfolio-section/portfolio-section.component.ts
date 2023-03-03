@@ -6,22 +6,21 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio-section.component.scss'],
 })
 export class PortfolioSectionComponent {
-  pictureTextContent: any = [
+  examples: any = [
     {
-      'project-name': 'Join',
-      language: 'HTML | CSS | JavaScript',
-      description:
-        'Kanban Project Management Tool',
-      'live-test-link': '',
-      'github-link': '',
+      title: 'El Pollo Loco',
+      technology: 'HTML | CSS | JavaScript',
+      description: 'Jump and run Game',
+      liveLink: 'https://www.boubkir-benamar.de/El-Pollo-Loco/',
+      gitLink: 'https://github.com/Boubkir/El-Pollo-Loco',
       img: 'el-pollo-loco.png',
     },
     {
-      'project-name': 'El Pollo Loco',
-      language: 'HTML | CSS | JavaScript',
-      description: 'Jump and run Game',
-      'live-test-link': 'mfnv jdkönfhäroequhnfä',
-      'github-link': 'nrf -jklenöhäfoihq3',
+      title: 'Join',
+      technology: 'HTML | CSS | JavaScript',
+      description: 'Kanbaaan',
+      liveLink: '',
+      gitLink: '',
       img: 'el-pollo-loco.png',
     },
   ];
