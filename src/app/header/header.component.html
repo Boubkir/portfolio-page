@@ -1,9 +1,9 @@
 <div class="menue">
   <img class="logo" routerLink="/" src="assets/img/b-logo.png" alt="">
   <nav #nav>
-    <a href="#about-me-section">About me</a>
-    <a href="#skill-section">Skills</a>
-    <a href="#portfolio-section">Portfolio</a>
+    <a (click)="closeMenu()" href="#about-me-section">About me</a>
+    <a (click)="closeMenu()" href="#skill-section">Skills</a>
+    <a (click)="closeMenu()" href="#portfolio-section">Portfolio</a>
   </nav>
   <img (click)="openMenu()" #menuBars class="menu-bars" src="assets/img/menu-bars.png" alt="">
 </div>

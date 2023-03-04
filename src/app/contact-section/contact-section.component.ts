@@ -35,7 +35,7 @@ export class ContactSectionComponent {
     formData.append('message', messageField.value);
 
     await fetch(
-      'https://boubkir-benamar.developerakademie.net/send_mail/send_mail.php',
+      'https://boubkir-benamar.de/send_mail/send_mail.php',
       {
         method: 'post',
         body: formData,

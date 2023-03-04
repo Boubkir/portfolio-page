@@ -14,13 +14,17 @@ export class HeaderComponent {
 
   openMenu() {
     if (this.menuOpen) {
-      this.nav.nativeElement.classList.remove('show-menu');
-      this.menuBars.nativeElement.src = 'assets/img/menu-bars.png';
-      this.menuOpen = false;
+      this.closeMenu();
     } else {
       this.nav.nativeElement.classList.add('show-menu');
       this.menuBars.nativeElement.src = 'assets/img/menu-close.png';
       this.menuOpen = true;
     }
+  }
+
+  closeMenu() {
+    this.nav.nativeElement.classList.remove('show-menu');
+    this.menuBars.nativeElement.src = 'assets/img/menu-bars.png';
+    this.menuOpen = false;
   }
 }
