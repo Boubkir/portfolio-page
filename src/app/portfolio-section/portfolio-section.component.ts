@@ -6,12 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./portfolio-section.component.scss'],
 })
 export class PortfolioSectionComponent {
-  examples: any = [
+  projects: any = [
     {
       title: 'El Pollo Loco',
       technology: 'HTML | CSS | JavaScript',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque incidunt, inventore eius facilis, reprehenderit in autem iusto voluptates ipsam sequi nostrum facere voluptatum doloremque qui repellendus soluta alias dolor?',
+        'In this object-oriented jump and run game with one level, players must navigate through obstacles and enemies to reach the end. Beware of the big chicken, a fearsome and endless foe.',
       liveLink: 'https://www.boubkir-benamar.de/El-Pollo-Loco/',
       gitLink: 'https://github.com/Boubkir/El-Pollo-Loco',
       img: 'el-pollo-loco.png',
@@ -20,10 +20,19 @@ export class PortfolioSectionComponent {
       title: 'Join',
       technology: 'HTML | CSS | JavaScript',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem neque incidunt, inventore eius facilis, reprehenderit in autem iusto voluptates ipsam sequi nostrum facere voluptatum doloremque qui repellendus soluta alias dolor?',
+        'I developed a Kanban tool using JavaScript, HTML, and CSS. It allows for easy incident creation with subtasks, and enables drag-and-drop functionality to move tickets across various status levels.',
       liveLink: 'https://www.boubkir-benamar.de/join/',
       gitLink: 'https://github.com/Boubkir/join',
-      img: 'el-pollo-loco.png',
+      img: 'join.png',
+    },
+    {
+      title: 'Ring of Fire',
+      technology: 'ANGULAR | TYPESCRIPT | JAVASCRIPT | FIREBASE | HTML | CSS',
+      description:
+        'Enjoy a fun-filled card game with friends on multiple devices simultaneously! Angular, TypeScript, HTML, CSS and Firebase power the game, featuring exciting instructions after every card pick. Let the fun begin!',
+      liveLink: 'https://www.boubkir-benamar.de/ringoffire/',
+      gitLink: 'https://github.com/Boubkir/ringoffire',
+      img: 'ring-of-fire.png',
     },
   ];
 }

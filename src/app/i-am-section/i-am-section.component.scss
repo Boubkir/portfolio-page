@@ -13,20 +13,20 @@
 
 .picture-div {
   position: absolute;
-  left: 47px;
+  left: 100px;
   width: 100%;
 }
 
 .shape-line {
   position: absolute;
-  width: 100%;
+  width: 114vw;
   bottom: -419px;
-  left: -50px;
+  left: -230px;
 }
 
 .blur {
   position: absolute;
-  left: -25px;
+  left: -106px;
   z-index: -1;
 }
 
@@ -46,8 +46,6 @@
 .rotate {
   transform: rotate(-90deg);
   font-size: 64px;
-  display: flex;
-  white-space: nowrap;
 }
 
 .me {
@@ -94,8 +92,6 @@
     }
   }
 }
-
-
 
 @media (max-width: 1200px) {
   .i-am-section {
@@ -144,6 +140,8 @@
     bottom: -218px;
     left: 0px;
     transform: rotateX(63deg);
+    width: 145vw;
+    left: -489px;
   }
 
   .blur {
@@ -194,9 +192,8 @@
 
   .shape-line {
     position: absolute;
-    width: 100vw;
-    bottom: -218px;
-    left: 0px;
+    width: 180vw;
+    left: -231px;
     transform: rotateX(63deg);
   }
 
@@ -206,13 +203,12 @@
   }
 }
 
-
 @media (max-width: 450px) {
   img {
     height: 383px;
   }
 
-  .rotate{
+  .rotate {
     font-size: 22px;
   }
 
@@ -220,15 +216,15 @@
     font-size: 33px;
   }
 
-  .job{
+  .job {
     font-size: 20px;
   }
 
-  .lets-talk-button{
-    a{
-    width: 149px;
-    height: 46px;
-    font-size: 21px;
+  .lets-talk-button {
+    a {
+      width: 149px;
+      height: 46px;
+      font-size: 21px;
+    }
   }
-}
 }

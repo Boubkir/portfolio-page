@@ -5,28 +5,32 @@
     <img src="assets/img/lines/portfolio-line-right.png" alt="">
   </div>
   <span>This page is s sample of work - please feel free to try them out.</span>
+  <ng-container *ngFor="let project of projects; let i = index">
+    <app-picture-text-div *ngIf="i % 2 == 0; else reverse" [title]="project['title']" [img]="project['img']"
+      [technology]="project['technology']" [description]="project['description']"
+      [liveLink]="project['liveLink']" [gitLink]="project['gitLink']"></app-picture-text-div>
+    <ng-template #reverse>
+      <app-tetx-picture-div [title]="project['title']" [img]="project['img']" [technology]="projects['technology']"
+        [description]="project['description']" [liveLink]="project['liveLink']"
+        [gitLink]="project['gitLink']"></app-tetx-picture-div>
+    </ng-template>
+    
+  </ng-container>
 
-  <app-picture-text-div [title]="examples[0]['title']" [img]="examples[0]['img']"
-    [technology]="examples[0]['technology']" [description]="examples[0]['description']"
-    [liveLink]="examples[0]['liveLink']" [gitLink]="examples[0]['gitLink']"></app-picture-text-div>
-  <app-tetx-picture-div [title]="examples[1]['title']" [img]="examples[1]['img']"
-    [technology]="examples[1]['technology']" [description]="examples[1]['description']"
-    [liveLink]="examples[1]['liveLink']" [gitLink]="examples[1]['gitLink']"></app-tetx-picture-div>
-  <app-picture-text-div [title]="examples[0]['title']" [img]="examples[0]['img']"
-    [technology]="examples[0]['technology']" [description]="examples[0]['description']"
-    [liveLink]="examples[0]['liveLink']" [gitLink]="examples[0]['gitLink']"></app-picture-text-div>
-  <app-tetx-picture-div [title]="examples[0]['title']" [img]="examples[0]['img']"
-    [technology]="examples[0]['technology']" [description]="examples[0]['description']"
-    [liveLink]="examples[0]['liveLink']" [gitLink]="examples[0]['gitLink']"></app-tetx-picture-div>
-  <app-picture-text-div [title]="examples[0]['title']" [img]="examples[0]['img']"
-    [technology]="examples[0]['technology']" [description]="examples[0]['description']"
-    [liveLink]="examples[0]['liveLink']" [gitLink]="examples[0]['gitLink']"></app-picture-text-div>
-  <app-tetx-picture-div [title]="examples[0]['title']" [img]="examples[0]['img']"
-    [technology]="examples[0]['technology']" [description]="examples[0]['description']"
-    [liveLink]="examples[0]['liveLink']" [gitLink]="examples[0]['gitLink']"></app-tetx-picture-div>
+
+  <!-- <app-picture-text-div [title]="project[2]['title']" [img]="project[2]['img']"
+    [technology]="project[2]['technology']" [description]="project[2]['description']"
+    [liveLink]="project['liveLink']" [gitLink]="project['gitLink']"></app-picture-text-div>
+  <app-tetx-picture-div [title]="project['title']" [img]="project['img']"
+    [technology]="project['technology']" [description]="project['description']"
+    [liveLink]="project['liveLink']" [gitLink]="project['gitLink']"></app-tetx-picture-div>
+  <app-picture-text-div [title]="project['title']" [img]="project['img']"
+    [technology]="project['technology']" [description]="project['description']"
+    [liveLink]="project['liveLink']" [gitLink]="project['gitLink']"></app-picture-text-div>
+  <app-tetx-picture-div [title]="project['title']" [img]="project['img']"
+    [technology]="project['technology']" [description]="project['description']"
+    [liveLink]="project['liveLink']" [gitLink]="project['gitLink']"></app-tetx-picture-div> -->
 
   <img class="p-blur-1" src="assets/img/blurs/portfolio-blur-1.png" alt="">
   <img class="p-blur-2" src="assets/img/blurs/portfolio-blur-2.png" alt="">
 </div>
-
-

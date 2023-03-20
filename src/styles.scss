@@ -4,9 +4,12 @@ body {
   backdrop-filter: blur(32.5px);
 }
 
-body, html {
-overflow-x: hidden;
+body,
+html {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
 }
+
 
 * {
   font-family: "poppins", Arial, Helvetica, sans-serif;
@@ -20,7 +23,6 @@ overflow-x: hidden;
     border-radius: 10px;
   }
 
-
   ::-webkit-scrollbar-thumb {
     background: #00bee8;
     border-radius: 10px;
@@ -30,5 +32,4 @@ overflow-x: hidden;
     background: #4b47ff;
   }
 }
-
 
