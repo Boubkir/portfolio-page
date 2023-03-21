@@ -12,19 +12,12 @@ export class HeaderComponent {
 
   menuOpen: any = false;
 
-  openMenu() {
-    if (this.menuOpen) {
-      this.closeMenu();
-    } else {
-      this.nav.nativeElement.classList.add('show-menu');
+  toggleMenu() {
+    if (!this.menuOpen) {
       this.menuBars.nativeElement.src = 'assets/img/menu-close.png';
-      this.menuOpen = true;
+    } else {
+      this.menuBars.nativeElement.src = 'assets/img/menu-bars.png';
     }
-  }
-
-  closeMenu() {
-    this.nav.nativeElement.classList.remove('show-menu');
-    this.menuBars.nativeElement.src = 'assets/img/menu-bars.png';
-    this.menuOpen = false;
+    this.menuOpen = !this.menuOpen;
   }
 }
