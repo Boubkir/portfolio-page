@@ -8,6 +8,15 @@ import { Component } from '@angular/core';
 export class PortfolioSectionComponent {
   projects: any = [
     {
+      title: 'Portfolio Page',
+      technology: 'ANGULAR | TYPESCRIPT | HTML | CSS',
+      description:
+        "Welcome to my portfolio page! I'm excited to share with you some of the projects I've worked on using Angular, TypeScript, HTML, and CSS. Browse through my collection of works and see how I've applied my skills to create beautiful and functional applications.",
+      liveLink: 'https://www.boubkir-benamar.de',
+      gitLink: 'https://github.com/Boubkir/portfolio-page',
+      img: 'portfolio.png',
+    },
+    {
       title: 'El Pollo Loco',
       technology: 'HTML | CSS | JavaScript',
       description:
