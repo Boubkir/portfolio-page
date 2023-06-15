@@ -8,13 +8,13 @@ import { Component } from '@angular/core';
 export class PortfolioSectionComponent {
   projects: any = [
     {
-      title: 'Portfolio Page',
-      technology: 'ANGULAR | TYPESCRIPT | HTML | CSS',
+      title: 'Slack-Clone',
+      technology: 'ANGULAR | TYPESCRIPT | FIREBASE | HTML | CSS',
       description:
-        "Welcome to my portfolio page! I'm excited to share with you some of the projects I've worked on using Angular, TypeScript, HTML, and CSS. Browse through my collection of works and see how I've applied my skills to create beautiful and functional applications.",
-      liveLink: 'https://www.boubkir-benamar.de',
-      gitLink: 'https://github.com/Boubkir/portfolio-page',
-      img: 'portfolio.png',
+        "Slack clone using a Firebase backend, allowing users to engage in both private and group chats. This project showcases my skills in building real-time communication applications. Explore the seamless chat experience and discover how I've leveraged Firebase to deliver a robust and user-friendly solution.",
+      liveLink: 'https://www.boubkir-benamar.de/slack-clone',
+      gitLink: 'https://github.com/Boubkir/Slack-Clone',
+      img: 'slack-clone.png',
     },
     {
       title: 'El Pollo Loco',
@@ -33,6 +33,15 @@ export class PortfolioSectionComponent {
       liveLink: 'https://www.boubkir-benamar.de/join/',
       gitLink: 'https://github.com/Boubkir/join',
       img: 'join.png',
+    },
+    {
+      title: 'Portfolio Page',
+      technology: 'ANGULAR | TYPESCRIPT | HTML | CSS',
+      description:
+        "Welcome to my portfolio page! I'm excited to share with you some of the projects I've worked on using Angular, TypeScript, HTML, and CSS. Browse through my collection of works and see how I've applied my skills to create beautiful and functional applications.",
+      liveLink: 'https://www.boubkir-benamar.de',
+      gitLink: 'https://github.com/Boubkir/portfolio-page',
+      img: 'portfolio.png',
     },
     {
       title: 'Ring of Fire',
