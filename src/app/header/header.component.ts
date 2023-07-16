@@ -15,8 +15,10 @@ export class HeaderComponent {
   toggleMenu() {
     if (!this.menuOpen) {
       this.menuBars.nativeElement.src = 'assets/img/menu-close.png';
+      document.body.classList.add('fixed')
     } else {
       this.menuBars.nativeElement.src = 'assets/img/menu-bars.png';
+       document.body.classList.remove('fixed');
     }
     this.menuOpen = !this.menuOpen;
   }

@@ -4,12 +4,15 @@ body {
   backdrop-filter: blur(32.5px);
 }
 
+body.fixed {
+  position: fixed;
+}
+
 body,
 html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-
 
 * {
   font-family: "poppins", Arial, Helvetica, sans-serif;
@@ -32,4 +35,3 @@ html {
     background: #4b47ff;
   }
 }
-

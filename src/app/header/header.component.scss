@@ -39,6 +39,18 @@
 }
 
 @media (max-width: 720px) {
+  .show-menu {
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .menu-bars{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    z-index: 22;
+  }
+
   nav {
     display: flex;
     flex-direction: column;
@@ -48,7 +60,7 @@
     position: absolute;
     right: 0;
     top: 0;
-    width: 100%;
+    left: 0;
     gap: 33px;
     background-color: rgba(20, 29, 47, 0.8);
     transform: translateX(100%);
