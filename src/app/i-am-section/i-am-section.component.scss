@@ -44,8 +44,11 @@
 }
 
 .rotate {
-  transform: rotate(-90deg);
+  position: absolute;
   font-size: 64px;
+  top: 50%;
+  transform: translateY(-50%) rotate(-90deg);
+  left: -98px;
 }
 
 .me {
@@ -93,6 +96,28 @@
   }
 }
 
+.relative {
+  position: relative;
+}
+
+@media (max-width: 1350px) {
+  .introduce {
+    margin-right: 5vw;
+  }
+
+  .name {
+    font-size: 7vw;
+  }
+
+  .job {
+    font-size: 4vw;
+  }
+
+  .rotate {
+    font-size: 5vw;
+  }
+}
+
 @media (max-width: 1200px) {
   .i-am-section {
     flex-direction: column;
@@ -132,6 +157,7 @@
 
   .rotate {
     font-size: 32px;
+    left: -50px;
   }
 
   .shape-line {

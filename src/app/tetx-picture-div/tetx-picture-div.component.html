@@ -5,7 +5,13 @@
     <span>{{description}}</span>
     <div class="button-div">
       <a target="_blank" href="{{liveLink}}" class="live-test-button">Live test</a>
-      <a target="_blank" href="{{gitLink}}" class="github-button">Github</a>
+      <ng-container *ngIf="gitLinkBackend; else gitHub">
+        <a target="_blank" href="{{ gitLinkFrontend }}" class="github-button">Github Frontend</a>
+      </ng-container>
+      <ng-template #gitHub>
+        <a target="_blank" href="{{ gitLinkFrontend }}" class="github-button">Github</a>
+      </ng-template>
+      <a *ngIf="gitLinkBackend" target="_blank" href="{{gitLinkBackend}}" class="github-button">Github Backend</a>
     </div>
   </div>
   <div class="picture">

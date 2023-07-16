@@ -30,6 +30,8 @@
 .button-div {
   margin-top: 35px;
   display: flex;
+  overflow: auto;
+  padding-bottom: 16px;
   gap: 86px;
 }
 
@@ -48,6 +50,9 @@
   cursor: pointer;
   font-family: "poppins" Arial, Helvetica, sans-serif;
   font-size: 16px;
+  white-space: nowrap;
+  padding: 0 8px;
+  box-sizing: border-box;
 
   &:hover {
     background-color: #00bee8;
@@ -83,6 +88,12 @@
     margin-bottom: 87px;
   }
 
+  .button-div {
+    gap: unset;
+    justify-content: space-around;
+    width: 100%;
+  }
+
   .picture,
   .text-div {
     width: 90%;
@@ -91,12 +102,6 @@
 }
 
 @media (max-width: 450px) {
-  .button-div {
-    gap: unset;
-    justify-content: space-around;
-    width: 100%;
-  }
-
   .live-test-button,
   .github-button {
     width: 125px;
