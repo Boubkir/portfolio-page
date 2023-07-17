@@ -6,10 +6,11 @@
   height: 110px;
   position: fixed;
   top: 0;
-  left: 0;
-  right: 0;
+  width: 100vw;
+  max-width: 1800px;
+  box-sizing: border-box;
   height: 100px;
-  background-color: #141d2f;
+  background-color: #141d2fbb;
   z-index: 1000;
 
   a {
@@ -38,13 +39,17 @@
   cursor: pointer;
 }
 
+.imprint-header {
+  background-color: #141d2f;
+}
+
 @media (max-width: 720px) {
   .show-menu {
     width: 100vw;
     height: 100vh;
   }
 
-  .menu-bars{
+  .menu-bars {
     position: absolute;
     top: 35px;
     right: 35px;

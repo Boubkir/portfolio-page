@@ -8,12 +8,12 @@
   <ng-container *ngFor="let project of projects; let i = index">
     <app-picture-text-div *ngIf="i % 2 == 0; else reverse" [title]="project['title']" [img]="project['img']"
       [technology]="project['technology']" [description]="project['description']"
-      [liveLink]="project['liveLink']" [gitLinkFrontend]="project['gitLinkFrontend']" [gitLinkBackend]="project['gitLinkBackend']">
+      [liveLink]="project['liveLink']" [gitLink]="project['gitLink']">
     </app-picture-text-div>
     <ng-template #reverse>
       <app-tetx-picture-div [title]="project['title']" [img]="project['img']"  [technology]="project['technology']"
         [description]="project['description']" [liveLink]="project['liveLink']"
-        [gitLinkFrontend]="project['gitLinkFrontend']" [gitLinkBackend]="project['gitLinkBackend']"> 
+        [gitLink]="project['gitLink']"> 
       </app-tetx-picture-div>
     </ng-template>
   </ng-container>

@@ -2,10 +2,14 @@ body {
   margin: 0;
   background-color: #141d2f;
   backdrop-filter: blur(32.5px);
+  display: flex;
+  justify-content: center;
 }
 
-body.fixed {
-  position: fixed;
+.fixed {
+  @media (max-width: 750px) {
+    position: fixed;
+  }
 }
 
 body,

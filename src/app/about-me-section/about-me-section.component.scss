@@ -64,8 +64,10 @@
 }
 
 .portrait {
-  width: 453px;
-  height: 453px;
+  max-width: 453px;
+  max-height: 453px;
+  height: 32vw;
+  width: 32vw;
   border-radius: 100%;
   object-fit: cover;
   border: solid 4px #00bee8;
@@ -83,6 +85,8 @@
 
 .profile-blur {
   position: relative;
+  max-width: 269px;
+  width: 19vw;
 }
 
 .pblur {
@@ -123,12 +127,10 @@
   }
 }
 
-@media(max-width:450px){
-.contact-icon-div {
-
-  img {
-    margin-right: 30px;
-
+@media (max-width: 450px) {
+  .contact-icon-div {
+    img {
+      margin-right: 30px;
+    }
   }
-}
 }

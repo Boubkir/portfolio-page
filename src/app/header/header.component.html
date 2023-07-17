@@ -1,4 +1,4 @@
-<div class="menue">
+<div class="menue" [class.imprint-headers]="isImprintPage">
   <img class="logo" routerLink="/" src="assets/img/b-logo.png" alt="">
   <nav [class.show-menu]="menuOpen">
     <a (click)="toggleMenu()" href="#about-me-section">About me</a>

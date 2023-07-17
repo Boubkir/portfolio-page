@@ -26,15 +26,18 @@
   align-items: center;
   font-size: 16px;
   font-weight: 700;
+  cursor: pointer;
 
   span {
     margin-top: 10px;
     text-align: center;
   }
 
-  img:hover {
+  
+  &:hover img {
     position: relative;
-    animation: jump 225ms ease-in-out;
+    animation: jump 1s ease-in-out;
+    animation-iteration-count: 1; 
   }
 }
 

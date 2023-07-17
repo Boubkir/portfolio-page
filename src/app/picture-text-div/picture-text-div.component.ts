@@ -11,6 +11,5 @@ export class PictureTextDivComponent {
   @Input() technology: any;
   @Input() description: any;
   @Input() liveLink: any;
-  @Input() gitLinkFrontend: any;
-  @Input() gitLinkBackend: any;
+  @Input() gitLink: any;
 }

@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   color: white;
-  height: 291px;
+  height: 250px;
   border-top: 4px solid #00bee8;
   background-color: #141d2f;
 
@@ -16,6 +16,10 @@
     color: white;
     font-size: 16px;
   }
+}
+
+.imprint-footer{
+  height: 180px !important;
 }
 
 .flex-column {
